@@ -10,7 +10,11 @@ Materials informatics & data-driven materials discovery
 Machine learning & generative models in materials science
 
 feature_engineering.ipynb:Implements feature construction and preprocessing for the HEA dataset, including descriptor calculation, scaling, correlation analysis, and feature selection.
+
 data_augmentation.ipynb: Contains wgan-gan data augmentation generated data analysis
+
 model_evaluation.ipynb: Trains ML models (e.g., XGBoost, RF, SVR, MLP / RobustNN) on the prepared datasets and reports metrics (RMSE, R², etc.), including cross-validation and OOD/generalization tests.
+
 bayesian_optimization.ipynb: Runs Bayesian optimization on the surrogate models to search for optimal alloy compositions (maximizing Epit under given compositional constraints).
+
 supplementary_materials.ipynb: Reproduces tables and figures used in the manuscript and supplementary information.
